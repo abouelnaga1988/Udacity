@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Naga Music</string>
+    <string name="player">Player</string>
+    <string name="play_list">Play List</string>
+</resources>
