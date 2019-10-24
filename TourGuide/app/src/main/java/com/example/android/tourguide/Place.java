@@ -10,9 +10,6 @@ public class Place {
     private int image1_id;
     private int image2_id;
     private int image3_id;
-    private int image4_id;
-    private int image5_id;
-    private int image6_id;
 
     public Place(String p_name, String p_short_description, String p_description, String p_adress, String p_phone, int image_f, int image1, int image2, int image3) {
         place_name = p_name;

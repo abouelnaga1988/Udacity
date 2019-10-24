@@ -20,12 +20,12 @@
     <string name="tuscany_phone">01022278773</string>
     <string name="al_moustafa_name">Al Moustafa</string>
     <string name="al_moustafa_short_description">Fitness</string>
-    <string name="al_moustafa_description">Gym - Fitness Center - Courses - Eastern - Zumba - Aerobic - Self Defense - Belly - Buttocks - Kids Courses</string>
+    <string name="al_moustafa_description">Gym - Fitness Center - Courses - Eastern - Zumba - Aerobic - Self Defense - Belly - Buttocks - Kids Courses.</string>
     <string name="al_moustafa_address">Central area, New damietta, Damietta</string>
     <string name="al_moustafa_phone">01013444705</string>
     <string name="olympia_name">Olympia</string>
     <string name="olympia_short_description">sports club</string>
-    <string name="olympia_description">Olympia sports club is the first private club in Damietta, Egypt We provide sports, Cultural, social, educational and recreational center to be suitable for the whole family to achieve the requirements of each individual in it.
+    <string name="olympia_description">Olympia sports club is the first private club in Damietta, Egypt We provide sports, Cultural, social, educational and recreational center to be suitable for the whole family to achieve the requirements of each individual in it
                                         The Club offers:
                                         \n- Swimming pools (Olympic, semi-Olympic and kids)
                                         \n- Tennis courts
@@ -63,8 +63,11 @@
     <string name="ragab_sons_phone">01004586719</string>
     <string name="hyper_city_name">Hyper City</string>
     <string name="hyper_city_short_description">Hyper market</string>
-    <string name="hyper_city_description">All kinds of groceries, freezers, cans, dairy products, hygiene items, clothes and household items, there is a children\'s play area and a small restaurant</string>
+    <string name="hyper_city_description">All kinds of groceries, freezers, cans, dairy products, hygiene items, clothes and household items, there is a children\'s play area and a small restaurant.</string>
     <string name="hyper_city_address">Mahgoub street, New damietta, Damietta</string>
     <string name="hyper_city_phone">01092653653</string>
+    <string name="address_text">Address :</string>
+    <string name="phone_text">Phone Number :</string>
+    <string name="description_text">Description :</string>
 
 </resources>
