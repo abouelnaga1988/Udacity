@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pizza_party_name">Pizza Party</string>
+    <string name="pizza_party_short_description">Pizza and fast food</string>
+    <string name="pizza_party_description">One of the famous restaurants in the region, offers all kinds of delicious pizza as well as fast food and delivery service is available.</string>
+    <string name="pizza_party_address">End of Saady street, North of 2nd district, New damietta, Damietta</string>
+    <string name="pizza_party_phone">0572225644 Or 0572240133</string>
+    <string name="abou_Saleh_name">Abou Saleh</string>
+    <string name="abou_Saleh_short_description">Grill and seafood</string>
+    <string name="abou_Saleh_description">One of the distinctive restaurants really, offers all types of grills and tajines as well as seafood with high quality and distinct craftsmanship in cooking and allows you to choose live fish yourself before cooking.</string>
+    <string name="abou_Saleh_address">Saady street, North of 2nd district, New damietta, Damietta</string>
+    <string name="abou_Saleh_phone">01017929100</string>
+    <string name="tuscany_name">Tuscany</string>
+    <string name="tuscany_short_description">Pasta grill</string>
+    <string name="tuscany_description">One of the best restaurants in terms of service very suitable for dating offers various types of Italian pasta dishes decorated with interest rates a bit high.</string>
+    <string name="tuscany_address">End of Saady street, North of 2nd district, New damietta, Damietta</string>
+    <string name="tuscany_phone">01022278773</string>
+    <string name="al_moustafa_name">Al Moustafa</string>
+    <string name="al_moustafa_short_description">Fitness</string>
+    <string name="al_moustafa_description">Gym - Fitness Center - Courses - Eastern - Zumba - Aerobic - Self Defense - Belly - Buttocks - Kids Courses</string>
+    <string name="al_moustafa_address">Central area, New damietta, Damietta</string>
+    <string name="al_moustafa_phone">01013444705</string>
+    <string name="olympia_name">Olympia</string>
+    <string name="olympia_short_description">sports club</string>
+    <string name="olympia_description">Olympia sports club is the first private club in Damietta, Egypt We provide sports, Cultural, social, educational and recreational center to be suitable for the whole family to achieve the requirements of each individual in it.
+                                        The Club offers:
+                                        \n- Swimming pools (Olympic, semi-Olympic and kids)
+                                        \n- Tennis courts
+                                        \n- Squash courts
+                                        \n- Football field
+                                        \n- Multipurpose court ( football, Basketball, Handball and volley ball)
+                                        \n- Fighting sports ( karate, taekwondo, judo and fencing )
+                                        \n- Men’s health club
+                                        \n- Women’s health club
+                                        \n- Restaurants
+                                        \n- Business men centre
+                                        \n- Table Tennis
+                                        \n- Billiards hall
+                                        \n- Kids area
+                                        \n- Outdoor cinema</string>
+    <string name="olympia_address">Clubs area, New damietta, Damietta</string>
+    <string name="olympia_phone">0102 741 1154</string>
+    <string name="fox_name">Fox</string>
+    <string name="fox_short_description">Play station and Cafe</string>
+    <string name="fox_description">They have many Play Station games large screens and offering drinks and snacks</string>
+    <string name="fox_address">Saady street, North of 2nd district, New damietta, Damietta</string>
+    <string name="fox_phone">01013313919</string>
+    <string name="arizona_name">Arizona</string>
+    <string name="arizona_short_description">Bowling, VR and Escape rooms</string>
+    <string name="arizona_description">Offers a range of interesting games:
+                                        \n- VR
+                                        \n- Bowling
+                                        \n- Escape rooms</string>
+    <string name="arizona_address">Central area, New damietta, Damietta</string>
+    <string name="arizona_phone">01000774060</string>
+    <string name="ragab_sons_name">Ragab Sons</string>
+    <string name="ragab_sons_short_description">Hyper market</string>
+    <string name="ragab_sons_description">All kinds of groceries, freezers, cans, dairy products and hygiene items</string>
+    <string name="ragab_sons_address">Central area, New damietta, Damietta</string>
+    <string name="ragab_sons_phone">01004586719</string>
+    <string name="hyper_city_name">Hyper City</string>
+    <string name="hyper_city_short_description">Hyper market</string>
+    <string name="hyper_city_description">All kinds of groceries, freezers, cans, dairy products, hygiene items, clothes and household items, there is a children\'s play area and a small restaurant</string>
+    <string name="hyper_city_address">Mahgoub street, New damietta, Damietta</string>
+    <string name="hyper_city_phone">01092653653</string>
+
+</resources>
