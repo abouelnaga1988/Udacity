@@ -9,13 +9,15 @@ class News {
     private String mTitle;
     private String mPillarName;
     private String mUrl;
+    private String mAuthorName;
 
-    public News(String section, Date date, String title, String pillarName, String url) {
+    public News(String section, Date date, String title, String pillarName, String url, String authorName) {
         mSection = section;
         mDate = date;
         mTitle = title;
         mPillarName = pillarName;
         mUrl = url;
+        mAuthorName = authorName;
     }
 
     public String getmSection() {
@@ -37,4 +39,6 @@ class News {
     public String getmUrl() {
         return mUrl;
     }
+
+    public String getmAuthorName() { return mAuthorName; }
 }

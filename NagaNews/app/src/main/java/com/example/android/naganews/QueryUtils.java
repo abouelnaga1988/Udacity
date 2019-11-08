@@ -134,7 +134,15 @@ public final class QueryUtils {
                 String title = currentNews.getString("webTitle");
                 String pillarName = currentNews.getString("pillarName");
                 String url = currentNews.getString("webUrl");
-                News mNews = new News(section, date, title, pillarName, url);
+                JSONArray tagsArray = currentNews.getJSONArray("tags");
+                String authorName = null;
+
+                if (tagsArray.length() == 1) {
+                    JSONObject contributorTag = (JSONObject) tagsArray.get(0);
+                    authorName = contributorTag.getString("webTitle");
+                }
+
+                News mNews = new News(section, date, title, pillarName, url, authorName);
                 news.add(mNews);
             }
         } catch (JSONException e) {

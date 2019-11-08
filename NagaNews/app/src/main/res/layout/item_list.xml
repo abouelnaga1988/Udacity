@@ -34,14 +34,7 @@
     </RelativeLayout>
 
 
-    <TextView
-        android:id="@+id/date_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:textAllCaps="true"
-        android:textSize="12sp"
-        tools:text="date" />
+
 
     <TextView
         android:id="@+id/title_text"
@@ -53,6 +46,32 @@
         android:textAllCaps="false"
         android:textColor="@color/title_text_color"
         android:textSize="30sp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
         tools:text="title" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            tools:text="date" />
+        <TextView
+            android:id="@+id/author_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            tools:text="author" />
+
+
+    </RelativeLayout>
 
 </LinearLayout>

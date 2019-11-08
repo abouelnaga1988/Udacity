@@ -32,10 +32,12 @@ public class NewsAdapter extends ArrayAdapter<News> {
         TextView dateView = listItemView.findViewById(R.id.date_text);
         TextView titleView = listItemView.findViewById(R.id.title_text);
         TextView pillarNameView = listItemView.findViewById(R.id.pillar_text);
+        TextView authorNameView = listItemView.findViewById(R.id.author_text);
         sectionView.setText(currentNews.getmSection());
         dateView.setText(formatDate(currentNews.getmDate()));
         titleView.setText(currentNews.getmTitle());
         pillarNameView.setText(currentNews.getmPillarName());
+        authorNameView.setText(currentNews.getmAuthorName());
 
         return listItemView;
     }
