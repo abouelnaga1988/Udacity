@@ -1,18 +1,20 @@
 package com.example.android.naganews;
 
+import java.util.Date;
+
 class News {
 
     private String mSection;
-    private String mDate;
+    private Date mDate;
     private String mTitle;
     private String mPillarName;
     private String mUrl;
 
-    public News( String section, String date,String title,String pillarName, String url) {
+    public News(String section, Date date, String title, String pillarName, String url) {
         mSection = section;
         mDate = date;
         mTitle = title;
-        mPillarName = pillarName ;
+        mPillarName = pillarName;
         mUrl = url;
     }
 
@@ -20,7 +22,7 @@ class News {
         return mSection;
     }
 
-    public String getmDate() {
+    public Date getmDate() {
         return mDate;
     }
 

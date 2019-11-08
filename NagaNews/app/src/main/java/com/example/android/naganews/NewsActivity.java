@@ -13,13 +13,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<List<News>>{
- private static final String GUARDIAN_REQUEST_URL = "https://content.guardianapis.com/search?tag=politics/politics&from-date=2014-01-01&api-key=2bee78f1-d886-44b9-b436-383bea3674bc";
+public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
+    private static final String GUARDIAN_REQUEST_URL = "https://content.guardianapis.com/search?page-size=25&show-references=author/author&tag=politics/politics&from-date=2014-01-01&api-key=2bee78f1-d886-44b9-b436-383bea3674bc";
     private static final int NEWS_LOADER_ID = 1;
     private NewsAdapter mAdapter;
     private TextView mEmptyStateTextView;
@@ -28,7 +30,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<L
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
-        ListView newsListView =  findViewById(R.id.list);
+        ListView newsListView = findViewById(R.id.list);
         mEmptyStateTextView = findViewById(R.id.empty_view);
         newsListView.setEmptyView(mEmptyStateTextView);
         mAdapter = new NewsAdapter(this, new ArrayList<News>());
@@ -62,7 +64,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<L
         Uri.Builder uriBuilder = baseUri.buildUpon();
         uriBuilder.appendQueryParameter("tag", "politics/politics");
         uriBuilder.appendQueryParameter("from-date", "2019-01-01");
-        return new NewsLoader(this,uriBuilder.toString());
+        return new NewsLoader(this, uriBuilder.toString());
     }
 
     @Override

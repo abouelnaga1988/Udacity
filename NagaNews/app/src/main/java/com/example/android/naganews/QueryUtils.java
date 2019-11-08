@@ -2,9 +2,11 @@ package com.example.android.naganews;
 
 import android.text.TextUtils;
 import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +15,10 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public final class QueryUtils {
@@ -118,11 +123,18 @@ public final class QueryUtils {
             for (int i = 0; i < newsArray.length(); i++) {
                 JSONObject currentNews = newsArray.getJSONObject(i);
                 String section = currentNews.getString("sectionName");
-                String date = currentNews.getString("webPublicationDate");
+                String dtStart = currentNews.getString("webPublicationDate");
+                SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+                Date date = null;
+                try {
+                    date = format.parse(dtStart);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
                 String title = currentNews.getString("webTitle");
                 String pillarName = currentNews.getString("pillarName");
                 String url = currentNews.getString("webUrl");
-                News mNews = new News(section,date,title,pillarName,url);
+                News mNews = new News(section, date, title, pillarName, url);
                 news.add(mNews);
             }
         } catch (JSONException e) {
